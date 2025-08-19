@@ -12,7 +12,7 @@ const App = () => {
     setCount(count + 1);
   };
 
-  const handleDecremetn = () => {
+  const handleDecrement = () => {
     setCount(count - 1);
   };
 
@@ -32,7 +32,7 @@ const App = () => {
         <div>
           <button onClick={handleIncrement}>➕ Increment</button>
           <button onClick={handleReset}>🔄 Reset</button>
-          <button onClick={handleDecremetn}>➖ Decrement</button>
+          <button onClick={handleDecrement}>➖ Decrement</button>
         </div>
       </div>
     </>
